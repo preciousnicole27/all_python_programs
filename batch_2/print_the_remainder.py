@@ -1,3 +1,6 @@
-# input two numbers
-# compute the remainder when first number is divided by the second number
-# print the remainder
+num1 = float(input("Enter the first number:"))
+num2 = float(input("Enter the second number:"))
+
+quotient = float(num1) % float(num2)
+
+print ("The remainder is:", num1 % num2)
