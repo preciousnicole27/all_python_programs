@@ -4,9 +4,11 @@ lowest_num = []
 while True:
     try:
         num = int(input("Enter a number:"))
-        nums.append(num)
+        lowest_num.append(num)
 # check if the input is a valid number
     except ValueError:
         break
 # check if the number is the lowest
 # print the lowest number
+if lowest_num:
+    print ("Lowest number:", min(lowest_num))
