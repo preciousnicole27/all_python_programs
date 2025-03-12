@@ -1,3 +1,4 @@
-# use while loop if odd number is less than or equal to 100
-# print the odd number
-# increase odd number by 2 by using increment
+oddnum = 1
+while oddnum <= 100:
+    print (oddnum)
+    oddnum +=2
