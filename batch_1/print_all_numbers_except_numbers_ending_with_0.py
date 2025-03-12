@@ -1,3 +1,3 @@
-# create a loop through numbers from 0 to 100
-# check if the number is a not a multiple of 10
-# print the number
+for num in range(101):
+    if num % 10 != 0:
+        print (num)
