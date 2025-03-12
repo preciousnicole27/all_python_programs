@@ -6,5 +6,9 @@ while True:
         num = int(input("Enter a number:"))
 # check if the input is valid
 # append the valid input to the list
+        numbers.append(num)
+    except ValueError:
+        break
+
 # sort the numbers from lowest to highest
 # display the sorted numbers
