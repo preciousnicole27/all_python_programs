@@ -1,3 +1,13 @@
-# ask to input a number
-# check if the number is already in the list
-# stop asking for an input if value is invalid
+numbers = []
+
+while True:
+    try:
+        num = int(input("Enter a number:"))
+        if num in numbers:
+            print ("Duplicate")
+        else:
+            print ("Unique")
+        numbers.append(num)
+    except ValueError:
+        print ("Invalid")
+        break
