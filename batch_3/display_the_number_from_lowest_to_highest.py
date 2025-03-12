@@ -9,6 +9,7 @@ while True:
         numbers.append(num)
     except ValueError:
         break
-
 # sort the numbers from lowest to highest
 # display the sorted numbers
+if numbers:
+    print("Sorted numbers:", sorted(numbers))
