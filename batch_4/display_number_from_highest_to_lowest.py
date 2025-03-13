@@ -6,5 +6,6 @@ while True:
          num = int(input("Enter a number:"))
          numbers.append(num)
 # check if the input is valid
-
+    except ValueError:
+         break
 # display the numbers in descending order
