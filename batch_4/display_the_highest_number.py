@@ -4,6 +4,9 @@ numbers = []
 while True:
     try:
         num =  int(input("Enter a number:"))
-        numbers.apped(num)
+        numbers.append(num)
 # check if the input is valid
+    except ValueError:
+        print ("Invalid")
+        break
 # display the highest number
