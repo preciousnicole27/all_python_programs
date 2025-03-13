@@ -8,5 +8,7 @@ try:
         print ("Duplicate" if num in numbers else "Unique")
         numbers.append(num)
 # check if the input is valid
+except ValueError:
+        break
 # display the number/s with the most number of duplicate
 
