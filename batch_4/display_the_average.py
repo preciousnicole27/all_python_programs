@@ -6,5 +6,7 @@ while True:
         num = int(input("Enter a number:"))
         numbers.append(num)
 # check if the input is valid
+    except ValueError:
+        break
 # calculate the average of the numbers in the list
 # display the average
