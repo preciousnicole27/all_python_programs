@@ -7,3 +7,6 @@ def remove_leading_spaces(text):
         index += 1 
 # use slicing to return the string 
     return text[index:]
+# get the user input
+text = input("Enter a text:")
+print(remove_leading_spaces, text)
