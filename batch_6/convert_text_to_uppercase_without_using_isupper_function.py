@@ -7,4 +7,6 @@ def to_all_uppercase_letter(text):
             return False
     return True
 # ask for user input
+text = input("Enter an input:")
 # print the result
+print(to_all_uppercase_letter(text))
