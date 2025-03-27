@@ -4,9 +4,9 @@ def remove_leading_spaces(text):
     index = 0
 # initialize index
     while index < len(text) and text[index] == " ":
-        index += 1 
+        index += 1
 # use slicing to return the string 
     return text[index:]
 # get the user input
 text = input("Enter a text:")
-print(remove_leading_spaces, text)
+print(remove_leading_spaces(text))
