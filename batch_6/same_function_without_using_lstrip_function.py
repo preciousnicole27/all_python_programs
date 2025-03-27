@@ -5,3 +5,5 @@ def remove_leading_spaces(text):
 # initialize index
     while index < len(text) and text[index] == " ":
         index += 1 
+# use slicing to return the string 
+    return text[index:]
