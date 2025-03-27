@@ -4,5 +4,7 @@ def to_all_uppercase_letter(text):
     for char in text:
         if "a" <= char <= "z":
 # use the return true function if there are no lowercase letters
+            return False
+    return True
 # ask for user input
 # print the result
