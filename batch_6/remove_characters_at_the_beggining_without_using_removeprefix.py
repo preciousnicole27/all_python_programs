@@ -6,4 +6,8 @@ def remove_prefix(text, prefix):
     while index < len(prefix) and index < len(text) and text[index]:
         index += 1
 # use slicing to return the string 
+    return text[index:]
 # ask for user input
+text =  input("Enter a text:")
+prefix = input("Enter the prefix:")
+print(remove_prefix(text,prefix))
