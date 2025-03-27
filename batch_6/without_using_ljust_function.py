@@ -8,3 +8,6 @@ def justified_text(text,width):
     return text + " " * (width - len(text))
 # ask for user input
 # print the justified text
+text = input("Enter an input:")
+width = int(input("Enter the total width:"))
+print(justified_text(text, width))
