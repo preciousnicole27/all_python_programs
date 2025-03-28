@@ -11,3 +11,4 @@ def center_text(text, width):
 text = input("Enter an input:")
 width = int(input("Enter width:"))
 # print the centered text
+print(f"'{center_text(text, width)}'")
