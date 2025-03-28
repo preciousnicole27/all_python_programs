@@ -8,4 +8,6 @@ def center_text(text, width):
 # return text
     return " " * left_spaces + text + " " * right_spaces
 # ask for user input
+text = input("Enter an input:")
+width = int(input("Enter width:"))
 # print the centered text
