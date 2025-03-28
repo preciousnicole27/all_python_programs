@@ -2,6 +2,8 @@
 def capitalize_text(text):
 # check if string is empty
 # then return text if not
+    if not text:
+        return text
 # make the first letter capital while the others are in lowercase
 # ask for user input
 # print the result
